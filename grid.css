@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+
+    background-color: darkmagenta;
+     height: 700px;
+    /* width: 900px; */
+    display: grid;
+    /* grid-template-columns: 133px 133px 133px;
+    grid-template-rows: 133px 133px 133px; */
+    /* using recommended repaet function*/
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: 143px 1fr 143px;
+    /* can also be written as
+    grid-template-rows/cloumns:1fr 1fr 1fr;*/
+    column-gap: 12px;
+    row-gap: 12px;
+/*
+    justify-items: start; */
+    /* align-items: center; */
+    place-items: center;
+
+}
+.item
+{
+    background-color: rgb(7, 204, 40);
+    height: 120px;
+
+
+    width: 120px;
+}
+.header
+{
+
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    grid-column:1 / span 3;/* header span*/
+    background-color: black;
+    color: cornsilk;
+    width: 100vw;
+}
+.item-2
+{
+
+    /* justify-self: center;
+    align-self: center;  mix of these two hort cut*/
+    /* place-self: center; */
+}
+.footer
+{
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: black;
+    color: cornsilk;
+    width: 100vw;
+}

@@ -1,0 +1,70 @@
+.container
+{
+border: 2px solid black;
+height: 600px;
+width: 100%;
+/* Initailizing container as a flex box */
+display: flex;
+
+/* flex properties for flex container*/
+  flex-direction: row; /* default*/
+
+ /* flex-direction: column;
+flex-direction: column-reverse; */
+
+flex-wrap: wrap;
+/* flex-flow: row wrap;
+/* short hand  first is direction and other is wrap */
+ justify-content: center;
+/*justify-content: space-between;
+justify-content: space-evenly;
+justify-content: space-around; */
+
+align-items: center;
+/* align-items:flex-end ;
+align-items: flex-start;
+align-items: stretch; */
+
+
+}
+.item
+{
+
+    background-color: cadetblue;
+    border: 2px solid green;
+    margin: 10px;
+    padding: 3px;
+    height: 200px;
+    width: 200px;
+
+}
+#item-1
+{
+
+  /*flex properties for items Heigher the order later it shows up in the container*/
+  /* order: 2; */
+
+  flex-grow: 3;
+}
+#item-2
+{
+
+  flex-grow: 2;
+  flex-basis: 250px;/* width of an item in row */
+}
+#item-3
+{
+  /* order: 40; */
+  flex-shrink: 2;
+
+
+}
+#item-6
+{
+
+  flex: 4 2 200px;
+
+  /* align-self: flex-end; */
+   align-self: flex-start;
+  align-self: center;
+}
