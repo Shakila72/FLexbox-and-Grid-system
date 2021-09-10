@@ -1,0 +1,33 @@
+/* class selector */
+.font{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(16, 243, 232);
+    font-size: 40px;
+}
+/* element selector */
+h1{
+    color: rgb(230, 5, 5);
+    text-decoration: underline;
+    color: yellow;
+
+}
+#h /* id selector */
+{
+    font-size: 40px;
+   color: blue;
+}
+/* element selector */
+p{
+    text-shadow: royalblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20;
+    font-weight: 100;
+    color: rgb(14, 245, 114);
+
+}
+/* this last selector will work */
+#h
+{
+    color: yellow;
+
+}

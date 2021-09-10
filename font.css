@@ -1,0 +1,33 @@
+#font
+{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+   /* font: italic small 600 30px sans-serif;
+   font: style varient weight size font-family;*/
+}
+h1{
+    font-weight: 200;
+}
+#varient
+{
+    font-size: 40px;
+    font-variant: small-caps;
+
+}
+#font1
+{
+    font-family: 'MonteCarlo', cursive;
+    font-size: 50px;
+}
+@font-face
+{
+    font-family: xyz;
+    src: url(font/Sacramento-Regular.ttf);
+}
+#font2
+{
+    font-family: xyz;
+    font-size: 50px;
+}

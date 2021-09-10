@@ -1,0 +1,9 @@
+img
+{
+    border: 1px solid red;
+    width: 700px;
+    height: 600px;
+    object-fit: cover;
+    object-position: top;
+
+}

@@ -1,0 +1,33 @@
+img
+{
+    filter: blur(10px);
+}
+#color-box
+{
+    filter: brightness(150%);
+
+}
+#color
+{
+    filter:contrast(300%);
+
+}
+#shadow
+{
+    filter:drop-shadow(20px 10px 5px green);
+
+}
+#blank-white
+{
+    filter: grayscale(30%);
+}
+#hue
+{
+    filter: hue-rotate(90deg);
+}
+#invert
+{
+    filter: invert(50%);
+    filter: opacity(30%), saturate(30%), sepia(40%);
+
+}

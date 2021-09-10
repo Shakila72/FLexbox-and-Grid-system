@@ -1,0 +1,29 @@
+
+/*#p{
+    background-color: cyan;
+}
+body{
+    background-color: royalblue ;
+} */
+body
+{
+    background-image: url(Image/image1.png);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-position: left bottom;
+   background-attachment:fixed;
+
+
+}
+p{
+    background-image: url(Image/image3.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100% ;
+}
+
+#t
+{
+    background-color: silver;
+    background-image: url(Image/image3.png);
+}

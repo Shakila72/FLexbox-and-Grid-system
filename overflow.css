@@ -1,0 +1,11 @@
+#overflow
+{
+    height: 500px;
+    width: 500px;
+    background-color: grey;
+    border: 2px solid red;
+    /* overflow: scroll; it shows scroll on x and y axis both */
+    /* overflow-x: hidden;
+    overflow-y: scroll; it shows scroll in y axis and hide scroll in x aixs but if over content get smaller it will show scroll in y axis so to make auto use auto property*/
+    overflow: auto;
+}

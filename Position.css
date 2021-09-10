@@ -1,0 +1,51 @@
+body{
+    height: 1500px;
+}
+#parent
+{
+    border: 4px solid black;
+    padding: 20px;
+    width: 50%;
+    display: inline-block;
+    margin: 200px;
+    position: relative;
+}
+#one
+{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    display: inline-block;
+    /* position: absolute;
+    top: 50px;
+    left: 50px; */
+}
+#two
+{
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+    display: inline-block;
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+}
+#three
+{
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    display: inline-block;
+        /* position: relative;
+    top: 100px;
+    left: 100px; */
+}
+
+/*
+1.static (default) normal-flow
+2.relative
+3.fixed
+4.absolute
+Properties that work with these positions
+ top,bottom,left,right
+ */

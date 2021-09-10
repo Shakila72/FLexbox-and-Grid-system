@@ -1,0 +1,20 @@
+#green
+{
+    color:rgba(3, 145, 50, 0.979);
+    font-size: 20px;
+
+}
+#blue
+{
+
+    color: rgb(201, 7, 7);
+}
+#initial
+{
+
+    color: initial;/* default link color*/
+}
+#inherit
+{
+    color: inherit; /*uses parent coloror inherit parent color to this child which is green*/
+}

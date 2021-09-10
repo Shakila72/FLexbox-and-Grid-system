@@ -1,0 +1,11 @@
+#radial
+{
+    height: 700px;
+    border: 1px solid gray;
+    /* background-image: radial-gradient( green,blue); */
+    background-image: radial-gradient( green,blue, red);
+    /* background-image: radial-gradient( circle,green 30%,blue 50%, red 20%); */
+    /* background-image: radial-gradient( to right, green,blue, red); */
+    /* background-image: radial-gradient( to bottom right, green,blue, red); */
+    /* background-image: radial-gradient( 160deg, green,blue, red); */
+}

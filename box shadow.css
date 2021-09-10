@@ -1,0 +1,30 @@
+div
+{
+    border: 2px solid red;
+    width: 500px;
+    background-color: seagreen;
+    margin: 100px;
+    padding: 30px;
+    box-shadow: 10px 15px 15px 20px goldenrod;
+
+}
+#inset
+{
+    border: 2px solid black;
+    width: 500px;
+    background-color: brown;
+    margin: 100px;
+    padding: 30px;
+
+    box-shadow: 10px 15px 15px 20px goldenrod inset;
+}
+#multiple
+{
+    border: 2px solid blue;
+    width: 500px;
+    background-color: yellowgreen;
+    margin: 100px;
+    padding: 30px;
+
+    box-shadow: 10px 15px 15px 20px goldenrod,-10px 15px 15px 20px gray;
+}

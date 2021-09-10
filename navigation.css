@@ -1,0 +1,12 @@
+ul{
+    background-color: cadetblue;
+    list-style-type: none;
+    overflow: auto;
+    
+}
+li{
+    color: crimson;
+    padding: 10px;
+    float: left;
+    position: sticky;
+}

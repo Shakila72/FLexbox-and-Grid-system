@@ -1,0 +1,63 @@
+.margin
+{
+    margin-top: 5px;
+}
+#norm
+{
+  cursor: cell;
+}
+#all
+
+{
+
+    border: 3px dashed  yellowgreen;
+    cursor: all-scroll;
+}
+#col
+{
+  cursor: col-resize;
+}
+#c
+{
+  cursor:crosshair
+
+}
+#e
+{
+  cursor:e-resize;
+
+}
+#g
+{
+  cursor:grab;
+
+}
+#h
+{
+cursor:help;
+}
+#n
+{
+  cursor:not-allowed;
+
+}
+#po
+{
+  cursor:pointer;
+
+}
+#p
+{
+  cursor:progress;
+
+}
+#w
+{
+
+  cursor:wait;
+}
+#z
+{
+
+  cursor:zoom-in;
+}

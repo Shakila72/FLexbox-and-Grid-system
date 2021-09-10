@@ -1,0 +1,16 @@
+#div1
+{
+ background-color: rosybrown;
+ width: 70%;
+ height: 500;
+ max-width: 700px;
+ min-width: 200px;
+ /*max-height: 1000px*/
+ min-height: 500px;
+
+}
+body
+{
+    border-style: solid;
+    height: 1000px;
+}

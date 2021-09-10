@@ -1,0 +1,23 @@
+:root
+{
+    --primary-color: teal;
+    --text-color: white;
+    --btn-color: tomato;
+}
+#function
+{
+    /* background-color: teal; */
+    background-color: var(--primary-color);
+    height: 500px;
+    /* width: 70%; */
+    width: calc(100% - 200px);
+}
+a{
+    padding: 10px 30px;
+    margin: 20px;
+    /* background-color: tomato; */
+    background-color: var(--btn-color);
+    /* color: white; */
+    color: var(--text-color);
+    text-decoration: none;
+}

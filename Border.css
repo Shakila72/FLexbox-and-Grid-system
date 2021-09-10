@@ -1,0 +1,45 @@
+
+#border1
+{
+    border-style:dashed ;
+    border-color: darkorchid;
+    border-width: 8px;
+
+
+
+
+}
+#border2
+{
+    border-style: solid ;
+    border-color: darkblue;
+    border-style: outset;
+    border-width: 8px;
+    border-top-right-radius: 40px ;
+
+}
+#border3
+{
+    border-style: solid;
+    border-color: darkturquoise;
+    border-style: inset;
+    border-width: 8px;
+    border-top-width: 20px;
+}
+#border4
+{
+    /*border-style: double;
+    border-color: red;
+    border-style: ridge;
+    border-width: 8px;*/
+    border: 8px solid red;
+    border-radius: 30px;
+}
+#border5
+{
+
+    border-style: solid dashed none dotted;
+    border-width: 8px;
+    border-color: aqua red yellowgreen chocolate;
+
+}

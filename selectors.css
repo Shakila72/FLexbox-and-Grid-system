@@ -1,0 +1,72 @@
+li{ /*element selector*/
+    color: deeppink;
+    font-size: 20px;
+}
+#l2
+{/*id selector*/
+    color: forestgreen;
+}
+/*class selector*/
+.li5
+{
+    background-color: grey;
+    width: 300px;
+}
+/*pseudo class*/
+a:hover
+{
+    color: firebrick;
+
+}
+/* a:active
+{
+    color: green;
+} */
+p::first-line/* pseudo element*/
+{
+    font-size: 20px;
+    color: forestgreen;
+
+}
+p::first-letter
+{
+    font-size: 30px;
+    color: indianred;
+}
+
+/* a[href="https://www.google.com"]/* attribute selector*/
+/* {
+    color: gold;
+} */
+/* universal selector*/
+/* *{
+    border: 3px solid green;
+} */
+/* any anchoe tag at any level inside div would ve styled*/
+
+div a{
+    color: indigo;
+}
+/*for direct child*/
+div>a{
+    color: rgb(14, 166, 236);
+    font-size: 40px;
+    text-decoration: none;
+}
+/* just next sibling*/
+div + a
+{
+    font-size: 50px;
+    color: maroon;
+    text-decoration: none;
+}
+/* normal sibling*/
+div ~ a
+{
+    font-size: 70px;
+    color: rgb(230, 136, 14);
+    text-decoration: none;
+}
+h1,p{/* for multiple tag styles*/
+    color: mediumpurple;
+}

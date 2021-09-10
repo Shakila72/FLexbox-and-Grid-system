@@ -1,0 +1,71 @@
+#display
+{
+
+    border: 3px solid brown;
+}
+.disp
+{
+    border: 5px solid blueviolet ;
+    width: 50%;
+    height: 100px;
+}
+.d
+{
+    border: 5px solid orangered ;
+    width: 50%;
+    height: 100px;
+    display: inline;
+    /* width and height are ignored*/
+}
+.d1
+{
+    border: 5px solid palevioletred ;
+    /* width: 50%;
+    height: 100px; */
+    display: inline-block;
+    /* width and height are not ignored*/
+}
+.d2
+{
+    border: 5px solid powderblue ;
+     width: 50%;
+    height: 100px;
+    display: inline-block;
+    /* width and height are not ignored*/
+}
+#div1
+{
+    /* display: none; */
+    visibility: hidden;
+}
+
+
+
+
+
+/*Display properties of css
+block
+block{
+    div
+    p
+    h1
+    1.It starts fro new line
+    2. takes full width
+    3. height and width can be apllied
+
+}
+iniline
+inline{
+    a, img, span
+    1. not starts from new line
+    2. width according to content
+    3. height and width cannnot be applied
+}
+
+inline-block{
+    1. not starts from new line
+    2. width according to content
+    3. height and width can be applied
+}
+none
+*/

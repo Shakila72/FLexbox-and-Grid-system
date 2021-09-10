@@ -1,0 +1,19 @@
+#d1
+{
+
+    background-color: burlywood;
+    width: 600px;
+    height: 200px;
+}
+#d2
+{
+
+    background-color: teal ;
+    width: 600px;
+    height: 200px;
+    padding: 50px;
+    border: 10px solid black;
+    /* box-sizing: content-box; */
+    box-sizing: border-box;
+
+}

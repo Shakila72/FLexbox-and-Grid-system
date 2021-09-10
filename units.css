@@ -1,0 +1,23 @@
+#parent
+{
+    border: 1px solid red;
+    width: 500pt;
+}
+#child
+{
+    border: 1px solid brown;
+    width: 500px
+}
+#p1
+{
+    margin-top: 2px;
+    border: 1px solid yellowgreen;
+    width: 800pt;
+}
+#c1
+{
+    border: 1px solid red;
+    width: 50%; /* it is 400px 50% of parent div(800px)*/
+}
+
+

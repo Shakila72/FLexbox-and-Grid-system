@@ -1,0 +1,30 @@
+.box1
+{
+border-style: solid;
+border-color: royalblue;
+padding: 25px;
+
+}
+body
+{
+    border: 5px dotted cyan;
+}
+
+#colsp
+{
+    margin-top: 30px;
+    margin-top: 50px;
+    
+}
+#marg
+{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+#marg1
+{
+    width: 80%;
+    margin:  20px auto;
+}

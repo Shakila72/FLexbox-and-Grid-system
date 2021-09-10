@@ -1,0 +1,7 @@
+body{
+    background-image: url(Image/pattern3.png),url(Image/pattern1.jpg);
+    background-color:tomato;
+    background-repeat: no-repeat;
+    background-position:  right bottom, top left;
+
+}

@@ -1,0 +1,22 @@
+/* p::first-letter */
+p::first-line /* style in news paper*/
+{
+    font-size: 30px;
+    color: rgb(236, 100, 2);
+}
+h1::before
+{
+
+    content: " First ";
+}
+h1::after
+{
+
+    content: url(Image/art.png);
+
+}
+::selection /* when anyone select content in browser which colors changes foreground and background*/
+{
+    color: rgb(47, 47, 173);
+    background-color: crimson;
+}

@@ -1,0 +1,60 @@
+@keyframes changecolor
+{
+    0% { background-color: brown; }
+    25% {  width: 400px;}
+    50% { background-color:green; }
+    75% { width: 300px; }
+    100% { background-color: palevioletred; }
+}
+
+#animate
+{
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    animation-name: changecolor;
+    animation-duration: 5s;
+    /* animation-delay: 2s; */
+    animation-iteration-count: infinite;
+}
+
+#animate2
+{
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    animation-name: changecolor;
+    animation-duration: 5s;
+    /* animation-delay: 2s; */
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes changewidth
+{
+    0% { background-color: brown; border-radius: 0%; }
+    10% {  background-color: sandybrown;border-radius: 10%;}
+    20% { background-color:green;border-radius: 20%; }
+    30% { background-color: royalblue; border-radius: 30%;}
+    40% { background-color: palevioletred;border-radius: 40%; }
+    50% { background-color:rgb(10, 225, 233);border-radius:50%; }
+    60% { background-color: rgb(236, 116, 17); border-radius: 60%;}
+    70% { background-color: rgb(250, 6, 87);border-radius: 50%; }
+    80% { background-color:rgb(43, 2, 224);border-radius: 40%; }
+    90% { background-color: rgb(235, 13, 150); border-radius: 30%;}
+    100% { background-color: rgb(236, 5, 5);border-radius: 20%; }
+}
+
+#animate3
+{
+    background-color: rgb(253, 95, 4);
+    width: 300px;
+    height: 300px;
+    animation-name: changewidth;
+    animation-duration: 5s;
+    /* animation-delay: 2s; */
+    animation-iteration-count: infinite;
+
+    animation-timing-function: ease-in-out;
+}

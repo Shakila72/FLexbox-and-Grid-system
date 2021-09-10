@@ -1,0 +1,45 @@
+#p2
+{
+    margin-top: 2px;
+    border: 1px solid blue;
+    height: 50vh; /* taking relative position from current to 50% of remainign screen*/
+    width: 50vw;
+}
+#c2
+{
+    border: 2px solid black;
+    width: 50%;
+
+}
+
+#p3
+{
+font-size: 30px;
+}
+#c3
+{
+font-size: 2em; /* it doubles parent tag font size (30*2)px*/
+}
+#p4
+{
+font-size: 40px;
+}
+#c4
+{
+font-size: 2em; /* it doubles parent tag font size (40*2)px it helps in keeping ratio same all over the document just you change one font size and it sets the other according to the ratio*/
+}
+/* html
+{
+    font-size:20px;
+} */
+#p5
+{
+/*font-size: 2rem; it relates the size with html tag font size*/
+font-size: 10vw;
+}
+#c5
+{
+    /* font-size: 3rem; */
+    font-size: 0.5em;
+
+}
